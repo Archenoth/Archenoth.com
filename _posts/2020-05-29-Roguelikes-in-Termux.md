@@ -271,7 +271,7 @@ Also, with ptrace, you can't "technically" stop a syscall from happening, but yo
 
 That's exactly what we're looking for!
 
-So, all we had to do to get ADOM working was write a simple program that could ptrace ADOM and intercept our rogue syscall. There was a little snag though: since I was working on aarch64, none of the documentation I could find gave information that worked on in.
+So, all we had to do to get ADOM working was write a simple program that could ptrace ADOM and intercept our rogue syscall. There was a little snag though: since I was working on aarch64, none of the documentation I could find gave information that worked on it.
 
 Almost all tutorials mentioned using the `PTRACE_GETREGS` and `PTRACE_SETREGS` ptrace calls to intercept and modify syscalls, which unfortunately didn't exist on aarch64 yet. (Including [this very helpful tutorial](https://nullprogram.com/blog/2018/06/23/) that helped me in a lot of other ways)
 
