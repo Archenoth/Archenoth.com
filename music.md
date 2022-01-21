@@ -21,7 +21,7 @@ permalink: /moosics/
 
 Sometimes, I make music... And sometimes I'm really happy with how it turns out!
 
-You'll find the intersection of these two occurences on this page!
+You'll find the intersection of these two occurences on this page! (Which is admittedly somewhat barren currently, but I'm working on it~)
 
 # Kirby Arrangement - Rainbow Resort
 This is an arrangement of one of my favorite tracks from Kirby's Adventure! It features a blend of orchestral strings and some somewhat tricky piano.
