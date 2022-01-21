@@ -17,6 +17,12 @@ permalink: /code/
       max-width: 40%;
     }
   }
+  @media only screen and (max-width: 600px) {
+    .post-content img{
+      max-width: 100%;
+    }
+  }
+
 </style>
 
 I slow down computers in useful ways for a living. Here is a collection of various means by which you can slow down yours too!
