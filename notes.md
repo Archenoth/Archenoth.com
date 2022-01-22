@@ -20,10 +20,10 @@ Because I really want to get better at reverse engineering things I know nothing
 
 I have a bunch of notes about how I like to integrate Windows and WSL together. Things like:
 
-- Having a home folder that doesn't seem isolated from teh rest of your system
-- Running Windows .exes without typing that part
-- Setting up services and cron with the Task Scheduler (Before you even log into Windows!)
-- ezpz terminal access (The Ctrl + Alt + T shortcut in a lot of Linux DMs)
+- Having a home folder that doesn't seem isolated from the rest of your system
+- Running Windows .exes without typing the ".exe" part (So "`explorer .`" works)
+- Setting up services and cron with the Task Scheduler (So you can connect to sshd before you even log into Windows!)
+- ezpz terminal access (The `Ctrl + Alt + T` shortcut in a lot of Linux DMs)
 - Calling Linux programs from Windows, and even associating them with things Windows-side
 - Graphics in WSL 1
 
