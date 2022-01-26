@@ -50,6 +50,6 @@ I use system-specific GPG keys, all which you can find [here](/assets/archenoth.
 The included keys in this file are for:
 - **Jirachi** - My main desktop system
 - **Porygon** - My phone
-- **Emolga** - My *Exceedingly Tiny* laptop
+- **Emolga** - My [*Exceedingly Tiny* laptop](https://twitter.com/Archenoth/status/1170376688972099585)
 
 With these keys, you can actually see which boxes I commit code from, or encrypt things to send my way~
