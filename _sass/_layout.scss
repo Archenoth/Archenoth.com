@@ -338,3 +338,9 @@ sub.series {
     }
   }
 }
+
+/* To center embedded tweets in blog posts (Not for gallery timelines) */
+.twitter-tweet {
+    margin-left: auto;
+    margin-right: auto;
+}
