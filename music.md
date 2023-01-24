@@ -25,7 +25,7 @@ You'll find the intersection of these two occurences on this page! (Which is adm
 
 # Kosmos
 This is a small composition I made while learning about some progressions not used in western music often~
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1430976283&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1430976283&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 
 # Kirby Arrangement - Rainbow Resort
 This is an arrangement of one of my favorite tracks from Kirby's Adventure! It features a blend of orchestral strings and some somewhat tricky piano.
