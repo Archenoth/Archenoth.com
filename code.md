@@ -2,6 +2,7 @@
 layout: page
 title: Code
 permalink: /code/
+rss: https://github.com/archenoth.atom
 ---
 
 <style>
