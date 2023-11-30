@@ -2,6 +2,7 @@
 layout: page
 title: Music
 permalink: /moosics/
+rss: http://feeds.soundcloud.com/users/soundcloud:users:77176165/sounds.rss
 ---
 
 ![Oshaphones](/img/Oshaphones.png "Oshawott!")
