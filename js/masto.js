@@ -101,6 +101,7 @@ for await(const status of client.fetchStatuses({"tagged": "mastoart"})){
   const description = document.createElement("div");
   const img = document.createElement("img");
 
+  img.loading = "lazy";
   img.src = media.preview_url;
   img.setAttribute("title", media.description);
   img.setAttribute("alt", media.description);
