@@ -1,0 +1,45 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+#fediComments {
+    > div {
+        > a {
+            img {
+                display: inline;
+                margin-right: 20px;
+                margin-bottom: 10px;
+            }
+        }
+
+        font-size: 20px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        margin: 50px;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 35px;
+        background-color: #fefefe;
+    }
+
+    span {
+        font-family: Roboto;
+
+        a {
+            line-break: anywhere;
+        }
+    }
+
+    .replyLink {
+        display: inline-block;
+        margin-bottom: 20px;
+        margin-left: 1%;
+        font-size: 18px;
+    }
+
+    > .noneYet {
+        display: block;
+        margin-bottom: 30px;
+        color: #555;
+    }
+}
