@@ -91,7 +91,7 @@ window.addEventListener("keyup", function(e){
 });
 
 // Actually fetch it all now and render!
-for await(const status of client.fetchStatuses({"tagged": "mastoart"})){
+for await(const status of client.fetchAccountStatuses({"tagged": "mastoart"})){
   if(status.sensitive){
     continue;
   }
