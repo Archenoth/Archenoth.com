@@ -34,9 +34,14 @@ And of course, you might also get the gist that I'm a [*maybe*-musician](/moosic
 
 I guess that's it..? Maybe I will put something Actually Useful here someday, but for now, enjoy links to parts of websites that aren't mine!
 
+## [The Fediverse](https://chitter.xyz/@archenoth)
+{% include icon-mastodon.html link='https://chitter.xyz/@archenoth' username='archenoth' %} --
+I've effectively moved entirely from Twitter to this place! So if you want to see what I'm up to, this is probably your best bet~
+
 {% if site.twitter_username %}
 ## [The Twitters](https://twitter.com/{{site.twitter_username}})
-  {% include icon-twitter.html username=site.twitter_username %} -- Not exactly a full stream of conciousness, but you'll find most of the things I work on here first!
+  {% include icon-twitter.html username=site.twitter_username %} --
+  Historically, I've been here a lot, but well, you know...
 {% endif %}
 
 {% if site.github_username %}
