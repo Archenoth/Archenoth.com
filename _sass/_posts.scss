@@ -4,10 +4,6 @@ article.post, ul.post-list > li {
             float: right;
             margin-left: 100px;
             margin-bottom: 50px;
-
-            @media only screen and (max-width: 1400px) and (min-width: 600px) {
-                max-width: 40%;
-            }
         }
 
         &.short {
@@ -20,6 +16,10 @@ article.post, ul.post-list > li {
 
         iframe {
             max-width: 60%;
+
+            @include media-query($on-palm) {
+                max-width: 100%!important;
+            }
         }
     }
 }
