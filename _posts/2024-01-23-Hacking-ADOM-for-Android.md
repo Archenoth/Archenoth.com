@@ -3,6 +3,7 @@ layout: post
 title: Hacking ADOM to work on Android
 categories: tech
 series: "Square peg, round hole:"
+fediPostId: 111808799873500357
 ---
 
 ![Oshawott standing on tippy toes, showing a phone with a victory hand gesture emoji on it](/img/Oshavictory.png  "Success!"){: .imageRight .short}
