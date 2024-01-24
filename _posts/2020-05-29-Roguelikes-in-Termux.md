@@ -4,7 +4,6 @@ title: Roguelikes in Termux
 date: 2020-05-29
 categories: tech
 series: "Square peg, round hole:"
-fediPostId: 111716637890521789
 ---
 
 The last few months of my time has been on-and-off spent trying to get a number of traditional roguelikes to run on my phone. To me, the idea of being able to possibly play something from a genre of largely-free games that required next-to no battery power and sported a basically limitless amount of replayability on my phone was something of a minor dream! But if you're anything like me, the idea of trying to control these things with touchscreen controls seemed like it would be *painful at best*. But the "potential cool" of being able to have portable [ADOM](https://www.adom.de/home/index.html) outweighed the negatives. So it was at least worth a try!
