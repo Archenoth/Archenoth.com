@@ -8,10 +8,9 @@ fediPostId: 111808799873500357
 
 ![Oshawott standing on tippy toes, showing a phone with a victory hand gesture emoji on it](/img/Oshavictory.png  "Success!"){: .imageRight .short}
 
-When I last left off, I wrote a post about [getting as many traditional roguelikes to work on as I could!](/tech/2020/05/29/Roguelikes-in-Termux.html) And while I was successful in accomplishing this for [a](https://github.com/termux/termux-packages/pull/10916) [few](https://github.com/termux/termux-packages/pull/5740) [games](https://github.com/termux/termux-packages/pull/10923) I eventually packaged for Termux, there was still the weirdness that was ADOM, a closed-source game that I wrote a [ptrace wrapper](/tech/2020/05/29/Roguelikes-in-Termux.html#enter-ptrace) in order to play without needing to rely on emulation.
+When I last left off, I wrote a post about [getting as many traditional roguelikes to work on Android as I could!](/tech/2020/05/29/Roguelikes-in-Termux.html) And while I was successful in accomplishing this for [a](https://github.com/termux/termux-packages/pull/10916) [few](https://github.com/termux/termux-packages/pull/5740) [games](https://github.com/termux/termux-packages/pull/10923) I eventually packaged for Termux, there was still the weirdness that was ADOM, a closed-source game that I wrote a [ptrace wrapper](/tech/2020/05/29/Roguelikes-in-Termux.html#enter-ptrace) in order to play without needing to rely on emulation.
 
 However, it turns out that getting a version of ADOM working on Android without a wrapper not only is possible, it's actually pretty easy!
-
 
 <!-- more -->
 
@@ -33,7 +32,9 @@ Here's the [Terrapin Vulnerability Scanner](https://github.com/RUB-NDS/Terrapin-
 
 [![A screenshot of a Termux terminal on Android showing the Linux Terrapin scanner is a 64-bit ELF built in Go, and then showing that it runs without errors](https://media.chitter.xyz/media_attachments/files/111/699/012/936/463/830/original/5275b34208e10978.png "It runs!")](https://chitter.xyz/@archenoth/111699043164231729)
 
-With that in mind, I should probably mention that there is [a Raspbian version of ADOM](https://www.adom.de/home/downloads.html) freely available on ADOM's website; Raspberry Pi's architecture being *ARM*. This apparently once upon a time, ran without modification on Android, but later, [Android introduced seccomp filters](/tech/2020/05/29/Roguelikes-in-Termux.html#seccomp) to prevent using certain syscalls that Android doesn't support. Syscalls ADOM *wants* to use.
+With that in mind, there is [a statically-linked Raspbian version of ADOM](https://www.adom.de/home/downloads.html) freely available on ADOM's website; Raspberry Pi's architecture being *ARM*.
+
+This apparently ran without modification on Android once upon a time, but [Android introduced seccomp filters](/tech/2020/05/29/Roguelikes-in-Termux.html#seccomp) to prevent programs from using syscalls that it doesn't support. Syscalls ADOM *wants* to use.
 
 And here lies the problem!
 
